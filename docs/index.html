@@ -1,1 +1,54 @@
+<body>
+  <img class="scrollToClip" src="https://avatars3.githubusercontent.com/u/3892772?v=3&s=466"/>
+  <img class="scrollToClip reverse" src="https://avatars3.githubusercontent.com/u/3892772?v=3&s=466"/>
 
+  <div id="header">
+  <a href="https://github.com/bersLucas">bersLucas</a> / <a href="https://github.com/bersLucas/scrollToClip">scrollToClip</a>
+  </div>
+</body>
+
+<style>
+  html,body{
+    margin:0px;
+    height: 150vh;
+    background: #dcdcdc;
+  }
+  #header{
+    padding: 20px;
+    height: 300px;
+    background: #333;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  #header a{
+    text-decoration: none;
+    color: #e4e4ff;
+  }
+  
+.scrollToClip{
+  position: fixed;
+  z-index: 10;
+  left:0;right:0;
+  top: 50px;
+  margin: auto;
+  height: 250px;
+  width: auto;
+  border-radius: 100%;
+}
+
+.scrollToClip.reverse{
+  z-index: 9;
+  filter: invert(100%);
+}
+</style>
+
+<script src="scrollToClip_min.js"></script>
+
+<script>
+var elem1 = document.querySelectorAll(".scrollToClip")[1];
+var elem2 = document.querySelectorAll(".scrollToClip")[0];
+var background = document.querySelector("#header");
+scrollToClip(elem1,elem2,background);
+</script>
