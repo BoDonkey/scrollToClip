@@ -1,10 +1,12 @@
+# <a href="https://berslucas.github.io/scrollToClip/">Live demo</a>
+
 # scrollToClip
 A function to clip two elements on scroll to give a reveal effect
 
 # Compatability
 ![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_24x24.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_24x24.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_24x24.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_24x24.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_24x24.png)
 --- | --- | --- | --- | --- |
- ✔ | ✔ | 9+ ✔ | ✔ | --- |
+ ✔ | ✔ | 9+ ✔ | ✔ |¯\_(ツ)_/¯|
 
 # Usage 
 **HTML**
